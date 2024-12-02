@@ -1,0 +1,53 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+
+body {
+    background: black;
+    color: aliceblue;
+    padding: 10em;
+    overflow: hidden;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.Login {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .Login li {
+        margin-bottom: .8em;
+    }
+
+        .Login li input[type=text] {
+            width: 100%;
+            padding: .2em;
+        }
+
+            .Login li input[type=text]:focus {
+                outline: none;
+            }
+
+
+        .Login li input[type=submit] {
+            padding: .5em .8em;
+            border: 1px solid white;
+            transition: all .3s;
+        }
+
+            .Login li input[type=submit] :hover {
+                background: transparent;
+                border: 1px solid white;
+                color: aliceblue;
+            }
